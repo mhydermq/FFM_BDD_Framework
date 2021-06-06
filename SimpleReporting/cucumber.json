@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-29T23:48:31.312Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7435000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "FFM OT member should login",
+        "description": "",
+        "id": "ffm-ot-member-should-be-able-to-login-through-valid-credentials-to-the-ffm-platform;ffm-ot-member-should-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6132000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should be able to view the login panel",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_view_the_login_panel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3156000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to give \"test@mail.com\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@mail.com",
+                  "offset": 26
+                },
+                {
+                  "val": "123456",
+                  "offset": 46
+                }
+              ],
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_give_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to click on the login button",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to view the FFM platform",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_view_the_FFM_platform()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-29T23:48:48.667Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5894000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "FFM OT member should login",
+        "description": "",
+        "id": "ffm-ot-member-should-be-able-to-login-through-valid-credentials-to-the-ffm-platform;ffm-ot-member-should-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6090000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should be able to view the login panel",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_view_the_login_panel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3178000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to give \"something@email.com\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "something@email.com",
+                  "offset": 26
+                },
+                {
+                  "val": "123456",
+                  "offset": 52
+                }
+              ],
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_give_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to click on the login button",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to view the FFM platform",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_view_the_FFM_platform()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-29T23:49:04.195Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5757000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "FFM OT member should login",
+        "description": "",
+        "id": "ffm-ot-member-should-be-able-to-login-through-valid-credentials-to-the-ffm-platform;ffm-ot-member-should-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 6132000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should be able to view the login panel",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_view_the_login_panel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3161000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to give \"ytr@mail.com\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ytr@mail.com",
+                  "offset": 26
+                },
+                {
+                  "val": "123456",
+                  "offset": 45
+                }
+              ],
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_give_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to click on the login button",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to view the FFM platform",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OT_Member_Login_Steps.i_should_be_able_to_view_the_FFM_platform()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FFM OT member should be able to login through valid credentials to the FFM platform",
+    "description": "",
+    "id": "ffm-ot-member-should-be-able-to-login-through-valid-credentials-to-the-ffm-platform",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/ffm/features/TechServe4U_FFM_01_ffmOTLogin.feature",
+    "tags": []
+  }
+]

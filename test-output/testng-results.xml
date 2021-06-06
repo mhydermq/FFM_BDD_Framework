@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57655" started-at="2021-05-30T15:14:40 EDT" finished-at="2021-05-30T15:15:38 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ffm.runner.TestRunner@28ac3dc3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="57655" started-at="2021-05-30T15:14:40 EDT" finished-at="2021-05-30T15:15:38 EDT">
+      <class name="com.ffm.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.ffm.runner.TestRunner@28ac3dc3]" name="setUpClass" is-config="true" duration-ms="1264" started-at="2021-05-30T15:14:40 EDT" finished-at="2021-05-30T15:14:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ffm.runner.TestRunner@28ac3dc3]" name="runScenario" duration-ms="19523" started-at="2021-05-30T15:14:42 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-30T15:15:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["FFM OT member should login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FFM OT member should be able to login through valid credentials to the FFM platform]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ffm.runner.TestRunner@28ac3dc3]" name="runScenario" duration-ms="16876" started-at="2021-05-30T15:15:01 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-30T15:15:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["FFM OT member should login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FFM OT member should be able to login through valid credentials to the FFM platform]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ffm.runner.TestRunner@28ac3dc3]" name="runScenario" duration-ms="15988" started-at="2021-05-30T15:15:18 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-30T15:15:34 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["FFM OT member should login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FFM OT member should be able to login through valid credentials to the FFM platform]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.ffm.runner.TestRunner@28ac3dc3]" name="tearDownClass" is-config="true" duration-ms="3939" started-at="2021-05-30T15:15:34 EDT" finished-at="2021-05-30T15:15:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.ffm.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
